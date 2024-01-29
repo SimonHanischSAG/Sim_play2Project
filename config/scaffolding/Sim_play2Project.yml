@@ -16,3 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: project.sim_play2.integrations:testAnywhere2
+  packages:
+  - name: Sim_play2Project
+    version: "1.0"
