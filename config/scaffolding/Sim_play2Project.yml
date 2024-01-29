@@ -25,3 +25,49 @@ services:
   packages:
   - name: Sim_play2Project
     version: "1.0"
+  - name: WxxConfig
+    version: 2.1.0
+- serviceName: wx.config.admin:startup
+  packages:
+  - name: WxxConfig
+    version: 2.1.0
+- serviceName: wx.config.impl:addValue
+  packages:
+  - name: WxxConfig
+    version: 2.1.0
+- serviceName: wx.config.pub:getValue
+  packages:
+  - name: WxxConfig
+    version: 2.1.0
+- serviceName: pub.flow:getCallingService
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: wm.server.globalvariables:getGlobalVariableValue
+  packages:
+  - name: WmRoot
+    version: 11.0.0.0.741
+- serviceName: wm.server.globalvariables:addGlobalVariable
+  packages:
+  - name: WmRoot
+    version: 11.0.0.0.741
+- serviceName: wx.config.pub:getValueList
+  packages:
+  - name: WxxConfig
+    version: 2.1.0
+- serviceName: wx.config.impl:getValueList
+  packages:
+  - name: WxxConfig
+    version: 2.1.0
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.list:appendToStringList
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.list:sizeOfList
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
