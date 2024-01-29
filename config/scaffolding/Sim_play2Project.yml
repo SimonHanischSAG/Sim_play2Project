@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/SimonHanischSAG/Sim_play2Project
   gitUsername: SimonHanischSAG
   gitBranch: main
+services:
+- serviceName: project.sim_play2.integrations:testAnywhere
+  packages:
+  - name: Sim_play2Project
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
