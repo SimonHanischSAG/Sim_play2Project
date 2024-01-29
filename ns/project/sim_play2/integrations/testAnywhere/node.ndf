@@ -46,12 +46,12 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">sim</value>
-    <value name="lastModifiedDate">1706542274602</value>
+    <value name="lastModifiedDate">1706542301499</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">2f5ddef3564349b0937cc69ff57ef321</value>
+      <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
       <value name="group">default</value>
-      <value name="name">sim_play</value>
-      <value name="executionPlaneType">onprem</value>
+      <value name="name">Cloud Runtime</value>
+      <value name="executionPlaneType">cloud</value>
     </record>
     <value name="displayName">testAnywhere</value>
     <value name="description"></value>
