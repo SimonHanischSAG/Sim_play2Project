@@ -75,3 +75,7 @@ services:
   packages:
   - name: WxxConfig
     version: 2.1.0
+- serviceName: wx.config.pub:getEnvironmentType
+  packages:
+  - name: WxxConfig
+    version: 2.1.0
