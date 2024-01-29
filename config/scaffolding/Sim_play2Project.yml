@@ -71,3 +71,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: wx.config.impl:log
+  packages:
+  - name: WxxConfig
+    version: 2.1.0

@@ -126,4 +126,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="WxxConfig" SERVICE="wx.config.pub:getEnvironmentType">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>

@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">sim</value>
-    <value name="lastModifiedDate">1706543043860</value>
+    <value name="lastModifiedDate">1706543199687</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">2f5ddef3564349b0937cc69ff57ef321</value>
       <value name="group">default</value>
@@ -91,6 +91,22 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">2</number>
         <number name="nodeIndex" type="Long">1</number>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">WxxConfig</value>
+          <value name="groupName">WxxConfig;2.1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">wx.config.pub:getEnvironmentType</value>
+          <value name="serviceName">wx.config.pub:getEnvironmentType</value>
+          <value name="displayName">getEnvironmentType</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
