@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/SimonHanischSAG/Sim_play2Project
   gitUsername: SimonHanischSAG
   gitBranch: main
+- name: WxxConfig
+  gitServerName: sim_github
+  gitUrl: https://github.com/SimonHanischSAG
+  gitUsername: SimonHanischSAG
+  gitBranch: main
 services:
 - serviceName: project.sim_play2.integrations:testAnywhere
   packages:
